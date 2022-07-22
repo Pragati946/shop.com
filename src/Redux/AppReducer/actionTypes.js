@@ -1,0 +1,4 @@
+
+export const GET_TASKS_REQ = "GET_TASKS_REQ"
+export const GET_TASKS_SUCESS = "GET_TASKS_SUCESS"
+export const GET_TASKS_FAIL = "GET_TASKS_FAIL"
