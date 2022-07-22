@@ -1,0 +1,95 @@
+.imagesliderparentbox {
+  width: 98%;
+  margin: 30px auto;
+}
+.FirstImageSlider {
+  width: 25%;
+  border-radius: 15px;
+  box-sizing: border-box;
+  transform: scale(0.8);
+}
+.myactiveImageSlider {
+  transform: scale(1);
+}
+.FirstImageSlider > img {
+  width: 100%;
+  border-radius: 15px;
+  z:0;
+}
+/* =================================== */
+.SecondImageSlider {
+  border-radius: 15px;
+  width: 25%;
+  transform: scale(0.8);
+}
+.SecondImageSlider > img {
+  border-radius: 15px;
+  width: 100%;
+  z:0;
+}
+.myactiveImageSlider {
+  transform: scale(1);
+}
+/* ======================================= */
+/* gif slider  */
+.gifsliderparentbox {
+  width: 80%;
+  /* margin: auto;
+
+   */
+   margin-top: 80px;
+width:100%;
+  margin-bottom: 100px;
+  font-family: Roboto;
+}
+.gifsliderparentbox > .carousel-indicators {
+  bottom: -15%;
+}
+.gifsliderparentbox > .carousel-indicators > button {
+  border-radius: 50%;
+  width: 11px !important;
+  height: 10px !important;
+}
+.gifSlider {
+  box-sizing: border-box;
+}
+.gifSliderBox1 {
+  text-align: center;
+  display: inline-block;
+  width: 43%;
+  padding: 0 2%;
+  box-sizing: border-box;
+  margin-left: 5%;
+}
+.gifSliderBox1 > h2 {
+  font-style: italic;
+  margin: 0;
+}
+.gifSliderBox1 > h2 + p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.gifSliderBox1 > p + p {
+  font-size: 20px;
+  color: rgba(119, 116, 116, 0.889);
+  font-weight: 300;
+}
+.gifSliderBox2 {
+  width: 43%;
+  display: inline-block;
+  margin-left: 5%;
+
+}
+.gifSliderBox2 > img {
+  width: 100%;
+  height:250px;
+  z:0;
+
+  border-radius: 15px;
+}
+.carousel-control-prev {
+  width: 2% !important;
+}
+.carousel-control-next {
+  width: 2% !important;
+}
