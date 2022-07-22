@@ -17,7 +17,7 @@ export const Navbar = ({ handleFormSubmit }) => {
         top: 0,
         // overflow: "hidden",
         position: "fixed",
-
+         zIndex:5,
         // display:"flex"
       }}
     >
