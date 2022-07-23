@@ -3,6 +3,10 @@ import { Navbar } from "./Navbar";
 import { Link } from "react-router-dom";
 import { HomeImageSlider } from "./HomeImageSlider";
 // import Hamburger from "hamburger-react";
+import {
+  HomeGifSlider,
+  HomeGifSlider2,
+} from "../Carousel/HomeImageSlider"
 import { startTransition, useState } from "react";
 import { Navigate } from "react-router-dom";
 import Signup from "../Pages/Signup";
@@ -181,9 +185,9 @@ export const HomePage = () => {
       <div>
         <HomeImageSlider />
       </div>
-
-      {/* </div> */}
-      {/* <Link to="/Signup" >Signup</Link> */}
+  < HomeGifSlider/> 
+      <HomeGifSlider2/>
+   
     </div>
   );
 };

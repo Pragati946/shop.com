@@ -17,7 +17,7 @@ export const Navbar = ({ handleFormSubmit }) => {
         top: 0,
         // overflow: "hidden",
         position: "fixed",
-
+         zIndex:5,
         // display:"flex"
       }}
     >
@@ -27,7 +27,8 @@ export const Navbar = ({ handleFormSubmit }) => {
           width: "250px",
         }}
       >
-        <img src="https://img.shop.com/Image/resources/logos/shop-logo-us-gold.svg" />
+       
+        <Link to="/" style={{textDecoration:"none"}}> <img src="https://img.shop.com/Image/resources/logos/shop-logo-us-gold.svg" /></Link>
       </div>
       <div
         style={{
@@ -42,6 +43,7 @@ export const Navbar = ({ handleFormSubmit }) => {
         <select
           style={{
             height: "40px",
+
             // marginTop:"-20px",
             // borderRadius:"5px"
           }}
@@ -83,15 +85,17 @@ export const Navbar = ({ handleFormSubmit }) => {
             marginLeft: "350px",
             gap: "20px",
             marginTop: "-35px",
+           
           }}
+          
         >
-          <div>Exclusive Brands</div>
-          <div>Stores</div>
-          <div>Deals</div>
-          <div>SHOP Travel</div>
-          <div>Departments</div>
-          <div>Shop Buddy</div>
-          <div>Shop Local</div>
+          <Link to="/product" style={{textDecoration:"none",color:"black"}}>  <div ><b>Exclusive Brands</b></div></Link>
+          <Link to="/product" style={{textDecoration:"none",color:"black"}}>  <div ><b>Stores</b></div></Link>
+          <Link to="/product" style={{textDecoration:"none",color:"black"}}>  <div ><b>Deals</b></div></Link>
+          <Link to="/product" style={{textDecoration:"none",color:"black"}}>  <div ><b>SHOP Travel</b></div></Link>
+          <Link to="/product" style={{textDecoration:"none",color:"black"}}>  <div ><b>Departments</b></div></Link>
+          <Link to="/product" style={{textDecoration:"none",color:"black"}}>  <div ><b>Shop Buddy</b></div></Link>
+          <Link to="/product" style={{textDecoration:"none",color:"black"}}>  <div ><b>Shop Local</b></div></Link>
         </div>
         <div
           style={{
@@ -108,7 +112,7 @@ export const Navbar = ({ handleFormSubmit }) => {
                 src="https://img.shop.com/Image/resources/images/icon-account-circle-24px.svg"
                 alt=""
               />
-              <Link to="/Signup" >Signup</Link>
+              <Link to="/Signup" style={{textDecoration:"none",color:"black"}}>Signup</Link>
               {/* <button onClick={handleFormSubmit}>Signup</button> */}
             </div>
             <div>
@@ -123,7 +127,7 @@ export const Navbar = ({ handleFormSubmit }) => {
                 src="https://img.shop.com/Image/resources/images/icon-shopping-cart-24px.svg"
                 alt=""
               />
-              Cart
+            <Link to="/product/:productId" style={{textDecoration:"none",color:"black"}}>Cart</Link>
             </div>
           </div>
         </div>
