@@ -47,8 +47,12 @@
       border-color: #167bff;
       box-shadow: none;
     }
+    .form-control{
+      
     
-    .outer h3 {
+      justify-content: center;
+    }
+    .outer h2 {
       font-weight: bold;
       text-align: center;
       margin: 0;

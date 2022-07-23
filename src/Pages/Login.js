@@ -35,20 +35,21 @@ function Login() {
     <div>
       {home ? (
         <form onSubmit={handleLogin}>
-          <h3>LogIn</h3>
-          <div className="form-group">
+           <h3 style={{marginBottom:"40px"}}>LogIn</h3>
+          <div className="form-group" style={{display:"flex",justifyContent: "center"}}>
             <label>Email</label>
             <input
+             style={{width:"300px",marginBottom:"15px"}}
               type="email"
               className="form-control"
               placeholder="Enter email"
               onChange={(event) => setEmaillog(event.target.value)}
             />
           </div>
-
-          <div className="form-group">
+          <div className="form-group" style={{display:"flex",justifyContent: "center"}}>
             <label>Password</label>
             <input
+             style={{width:"300px",marginBottom:"15px"}}
               type="password"
               className="form-control"
               placeholder="Enter password"
