@@ -28,11 +28,12 @@ export const Navbar = ({ handleFormSubmit }) => {
         }}
       >
        
-        <Link to="/" style={{textDecoration:"none"}}> <img src="https://img.shop.com/Image/resources/logos/shop-logo-us-gold.svg" /></Link>
+        <Link to="/" style={{textDecoration:"none",marginLeft:"20px"}}> <img src="https://img.shop.com/Image/resources/logos/shop-logo-us-gold.svg" /></Link>
       </div>
       <div
         style={{
           // width:"100px",
+        borderRadius:"20px",
           marginTop: "-72px",
           borderRadius: "10px",
           display: "flex",
@@ -68,21 +69,21 @@ export const Navbar = ({ handleFormSubmit }) => {
         />
         {/* </div> */}
         <img
+        
           src="https://img.shop.com/Image/resources/images/icon-search-24px.svg"
           alt=""
-          style={{ background: "Blue" }}
+          style={{ background: "Blue",width:"40px" }}
         />
       </div>
       <div>
-        {/* <div style={{marginLeft:"-90%"}}><img  src="https://img.shop.com/Image/resources/images/icon-menu-24px.svg" alt="" />Categories</div> */}
-        <div style={{ display: "flex" }}>
-          <Hamburger toggled={isOpen} toggle={setOpen} />
+        <div style={{ display: "flex" ,marginLeft:"20px"}}>
+          <Hamburger toggled={isOpen} toggle={setOpen}  style= {{}}/>
           <h4 style={{ paddingLeft: "20px", marginTop: "12px" }}>Categories</h4>
         </div>
         <div
           style={{
             display: "flex",
-            marginLeft: "350px",
+            marginLeft: "450px",
             gap: "20px",
             marginTop: "-35px",
            
@@ -112,7 +113,7 @@ export const Navbar = ({ handleFormSubmit }) => {
                 src="https://img.shop.com/Image/resources/images/icon-account-circle-24px.svg"
                 alt=""
               />
-              <Link to="/Signup" style={{textDecoration:"none",color:"black"}}>Signup</Link>
+              <Link to="/signup" style={{textDecoration:"none",color:"black"}}>Sign in</Link>
               {/* <button onClick={handleFormSubmit}>Signup</button> */}
             </div>
             <div>

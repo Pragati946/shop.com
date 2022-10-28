@@ -15,8 +15,8 @@ export const HomePage = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <div>
-      {/* ------------------------------------------------------------------------------ */}
-      <Navbar />
+      
+     
       <div style={{ width: "100%", marginTop: "150px" }}>
         <div
           style={{

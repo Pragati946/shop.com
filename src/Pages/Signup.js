@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Form, Alert } from "react-bootstrap";
 import Login from "./Login";
-import Style from "../Pages/SignLogin.modules.css";
+import {Navigate} from "react-router-dom"
 function Signup() {
-  const [name, setName] = useState("");
+  const [fname, setFName] = useState("");
+  const [lname, setLName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [phone, setPhone] = useState("");
@@ -15,7 +16,7 @@ function Signup() {
   function handleFormSubmit(e) {
     e.preventDefault();
 
-    if (!name || !email || !password || !phone || !profession) {
+    if (!fname || !lname || !email || !password || !phone) {
       setFlag(true);
     } else {
       setFlag(false);
@@ -29,32 +30,49 @@ function Signup() {
 
   function handleClick() {
     setLogin(!login);
+    <Navigate to ="/login"/>
   }
 
   return (
     <>
-      <div style={{ width: "40%", justifyContent: "center" ,margin:"auto",border:"1px solid grey",marginTop:"60px"}}>
-        {" "}
+      {/* <Navbar /> */}
+      <div style={{marginBottom:"10%"}}></div>
+      <div style={{  width: "60%", margin: "auto",textAlign:"left", justifyContent: "center" }}>
         {login ? (
           <form onSubmit={handleFormSubmit} >
-            <h3 style={{marginBottom:"40px"}}>Signup</h3>
+            <h1 style={{ marginBottom: "40px" ,color:"#202340"}}>Create an account</h1>
+            <p>* Indicates required field</p>
 
-            <div className="form-group" style={{display:"flex",justifyContent: "center"}}>
-              <label>Name</label>
-              <input
-              style={{width:"300px",marginBottom:"15px"}}
-                type="text"
-                className="form-control"
-                placeholder="Enter Full Name"
-                name="name"
-                onChange={(event) => setName(event.target.value)}
-              />
+            
+              <div className="form-group" >
+                <h5>First name*</h5>
+                <input
+                  style={{ width: "60%", height: "50px", marginBottom: "15px" }}
+                  type="text"
+
+                  className="form-control"
+                  placeholder="Enter Full Name"
+                  name="fname"
+                  onChange={(event) => setFName(event.target.value)}
+                />
+              </div>
+              <div className="form-group">
+                <h5>Last name*</h5>
+                <input
+                  style={{ width: "60%", marginBottom: "15px", height: "50px", }}
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Full Name"
+                  name="lname"
+                  onChange={(event) => setLName(event.target.value)}
+                />
+             
+
             </div>
-
-            <div className="form-group" style={{display:"flex",justifyContent: "center"}}>
-              <label>Email</label>
+            <div className="form-group" >
+              <h5>Email</h5>
               <input
-                 style={{width:"300px",marginBottom:"15px"}}
+                style={{ width: "60%", marginBottom: "15px", height: "50px" }}
                 type="email"
                 className="form-control"
                 placeholder="Enter email"
@@ -62,10 +80,10 @@ function Signup() {
               />
             </div>
 
-            <div className="form-group" style={{display:"flex",justifyContent: "center"}}>
-              <label>Password</label>
+            <div className="form-group" >
+              <h5>Password</h5>
               <input
-              style={{width:"300px",marginBottom:"15px"}}
+                style={{ width: "60%", marginBottom: "15px", height: "50px" }}
                 type="password"
                 className="form-control"
                 placeholder="Enter password"
@@ -73,24 +91,24 @@ function Signup() {
               />
             </div>
 
-            <div className="form-group" style={{display:"flex",justifyContent: "center"}}>
-              <label>Phone No.</label>
+            <div className="form-group" >
+              <h5>Phone No.</h5>
               <input
-                 style={{width:"300px",marginBottom:"15px"}}
+                style={{ width: "60%", marginBottom: "15px", height: "50px" }}
                 type="Phone"
                 className="form-control"
                 placeholder="Enter contact no"
                 onChange={(event) => setPhone(event.target.value)}
               />
-           
+
             </div>
 
-            <button type="submit" className="btn btn-dark btn-lg btn-block">
-             Signup
+            <button type="submit" className="btn btn-dark btn-lg btn-block" style={{width:"60%",color:"white",borderRadius:"40px",backgroundColor:"#414467 "}}>
+              Create your new account
             </button>
-            <p style={{color:"#0000FF"}} onClick={handleClick} className="forgot-password text-right">
-           Already registered log in?
-             
+            <p style={{ color: "#0000FF" }} onClick={handleClick} className="forgot-password text-right">
+              Already registered log in?
+
             </p>
             {flag && (
               <Alert color="primary" variant="danger">
@@ -99,9 +117,11 @@ function Signup() {
             )}
           </form>
         ) : (
-          <Login />
+          <Navigate to="/login"/>
         )}
+
       </div>
+
     </>
   );
 }

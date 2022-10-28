@@ -1,13 +1,9 @@
 import React from "react";
-// import { Image } from "@chakra-ui/react";
+
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
-// import Carousl from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-// import { Carousel } from "react-responsive-carousel";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
 const responsive = {superLargeDesktop: {
-  // the naming can be any, depends on you.
   breakpoint: { max: 4000, min: 3000 },
   items: 5
 },

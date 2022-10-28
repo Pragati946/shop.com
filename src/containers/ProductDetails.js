@@ -29,9 +29,9 @@ const ProductDetails = () => {
   }, [productId]);
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <div className="ui grid container" style={{width:"60%"}}>
-      
+      <div style={{marginBottom:"20%"}}></div>
       {Object.keys(product).length === 0 ? (
         <div>...Loading</div>
       ) : (
