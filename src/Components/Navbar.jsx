@@ -83,7 +83,7 @@ export const Navbar = ({ handleFormSubmit }) => {
         <div
           style={{
             display: "flex",
-            marginLeft: "450px",
+            marginLeft: "350px",
             gap: "20px",
             marginTop: "-35px",
            
