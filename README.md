@@ -27,7 +27,7 @@ SignUp Page:
 Products Page:
 
 <div>
-  <img src="<img width="675" alt="image" src="https://user-images.githubusercontent.com/100217706/203846916-297903bf-ef97-4e4a-a522-fc4db0e0b4af.png"/>
+  <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_234735_729135.png"/>
  </div>
   
  Product Detail Page:
