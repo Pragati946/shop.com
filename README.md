@@ -2,5 +2,5 @@ About Project:- SHOP.COM is a new kind of shopping comparison site that offers t
 
 Home Page:
 <div>
-<img src="C:\Users\PRAGATI\Pictures\Screenshots\Screenshot_20221124_233358.png"/>
+<img src="[C:\Users\PRAGATI\Pictures\Screenshots\Screenshot_20221124_233358.png](https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_233358_798667.png)"/>
 </div>
