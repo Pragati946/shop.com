@@ -27,9 +27,8 @@ SignUp Page:
 Products Page:
 
 <div>
-  <img src="<img width="675" alt="image" src="https://user-images.githubusercontent.com/100217706/203846916-297903bf-ef97-4e4a-a522-fc4db0e0b4af.png">
-"/>
-  </div>
+  <img src="<img width="675" alt="image" src="https://user-images.githubusercontent.com/100217706/203846916-297903bf-ef97-4e4a-a522-fc4db0e0b4af.png"/>
+ </div>
   
  Product Detail Page:
  <div>
