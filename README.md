@@ -3,34 +3,34 @@ About Project:- SHOP.COM is a new kind of shopping comparison site that offers t
 Home Page:
 
 <div>
-<img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_233358_798667.png"/>
+<img  width="913" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_233358_798667.png"/>
 </div>
 
 SignUp Page:
 
 <div>
-  <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_234157_470192.png"/>
+  <img  width="913" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_234157_470192.png"/>
   </div>
   
   LoginPage:
   
   <div>
-  <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_234335_158287.png"/>
+  <img  width="913" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_234335_158287.png"/>
   </div>
   
   Footer:
   
   <div>
-  <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_234555_124970.png"/>
+  <img  width="913" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_234555_124970.png"/>
   </div>
 
 Products Page:
 
 <div>
-  <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_234735_729135.png"/>
+  <img  width="913" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_234735_729135.png"/>
  </div>
   
  Product Detail Page:
  <div>
-  <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_234953_647853.png"/>
+  <img  width="913" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-24/Screenshot_20221124_234953_647853.png"/>
   </div>
